@@ -30,12 +30,15 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
 
+     <div class="texto-header">
+      <p>We are Creatives</p>
+      <img src="images/icon-arrow-down.svg" class="seta">
+     </div>
   
 </body>
 </html>
@@ -44,7 +47,8 @@
   
 const btnMobile = document.getElementById('btn-mobile');
 
-function toggleMenu(){
+function toggleMenu(event){
+  if (event.type === 'touchstart') event.preventDefault();
 
 const nav = document.getElementById('nav'); 
 
@@ -53,5 +57,6 @@ nav.classList.toggle('active');
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
 
 </script>
