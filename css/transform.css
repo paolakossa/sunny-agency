@@ -1,0 +1,36 @@
+.ovo{
+
+width: 100vw;
+
+}
+
+.transform{
+
+	font-family: var(--fraunces);
+	text-align: center;
+	font-size: 24px;
+	margin-top: 3rem;
+	line-height: 1.5;
+	font-weight: 900;
+	
+
+}
+
+.transform-frase{
+
+	font-size: 16px;
+	text-align: center;
+	margin: 1rem;
+	line-height: 1.5;
+	color: var(--dark-grayish-blue);
+}
+
+.transform-more{
+
+	text-transform: uppercase;
+	font-family: var(--fraunces);
+	font-size: 14px;
+	text-align: center;
+	text-decoration: underline var(--soft-red) 2px;
+	text-decoration-style:solid;
+}
