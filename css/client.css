@@ -1,0 +1,55 @@
+.client{
+
+	margin-top: 10rem;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: var(--fraunces);
+    font-weight: 900;
+    letter-spacing: 5.5px;
+    color: var(--very-dark-grayish-blue);
+
+}
+
+.client-imagem{
+
+	margin-top: 4rem;
+	margin-left: 9rem;
+	border-radius: 5rem;
+	width: 20vw;
+}
+
+.client-frase{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 2rem;
+	line-height: 1.5;
+	color: var(--very-dark-desaturated-blue);
+}
+
+.client-nome{
+
+	text-align: center;
+	margin-top: 2rem;
+	font-family: var(--fraunces);
+	font-size: 20px;
+	color: var(--very-dark-desaturated-blue);
+	font-weight: 900;
+
+}
+
+.client-profissão{
+	text-align: center;
+	margin-top: 1rem;
+	color: var(--dark-grayish-blue);
+}
+
+.quarteto{
+	display: inline-block;
+	width: 49.5vw;
+	margin-top: 5rem;
+}
+
+.quarteto1{
+	display: inline-block;
+	width: 49.5vw;
+}

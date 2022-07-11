@@ -31,6 +31,6 @@ width: 100vw;
 	font-family: var(--fraunces);
 	font-size: 14px;
 	text-align: center;
-	text-decoration: underline var(--soft-red) 2px;
+	text-decoration: underline var(--soft-red);
 	text-decoration-style:solid;
 }

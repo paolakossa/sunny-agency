@@ -1,0 +1,27 @@
+.laranja{
+
+	width: 100vw;
+	
+}
+.photography{
+
+	font-family: var(--fraunces);
+	text-align: center;
+	font-size: 30px;
+	margin-top: -14rem;
+	line-height: 1.5;
+	font-weight: 900;
+	color: var(--dark-desaturated-cyan);
+
+	
+
+}
+
+.photography-frase{
+
+	font-size: 16px;
+	text-align: center;
+	margin: 1rem 2rem;
+	line-height: 1.5;
+	color: var(--dark-desaturated-cyan);
+}
