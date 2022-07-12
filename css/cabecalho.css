@@ -144,15 +144,100 @@ width: 20px;
  }
 
 
-@media screen and (min-width:: 768px){
+@media screen and  (min-width:1444px) {
 
-    .btn-mobile{
-
-         display: none;
-
-    }
-
-    #hamburguer{
-        display: none;
-    }
+   header{
+    
+    
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    
 }
+    
+#header {
+    
+    color: var(--white);
+    width: 100%;
+    display: inline-block;
+    
+
+   
+    
+}
+
+#nav {
+    text-align: center;
+}
+
+#menu{
+
+    visibility: visible;
+    overflow-y: visible;
+
+
+}
+
+#btn-mobile{
+    
+    display: none;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: -4rem;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+
+   
+    
+
+   
+}
+
+.contact{
+
+    width: 10vw;
+    background:var(--white);
+    font-weight:bold;
+    border:none;
+    border-radius:200px;
+    font-size: 18px;
+    color: var(--very-dark-desaturated-blue);
+    text-transform: uppercase;
+
+    
+   
+ }
+
+.texto-header {
+
+   
+   position: relative;
+   margin-left: 1rem;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: var(--fraunces);
+   color: var(--white);
+   text-align: center;
+   letter-spacing: 5.5px;
+
+
+
+    
+ 
+ }
+
+ .seta{
+    
+    padding: 4rem;
+    margin-left: 7rem;
+    
+ }
+
+}
+
