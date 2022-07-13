@@ -144,15 +144,121 @@ width: 20px;
  }
 
 
-@media screen and (min-width:: 768px){
+@media screen and  (min-width:1440px) {
 
-    .btn-mobile{
+   header{
+    
+    
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
 
-         display: none;
+    
+}
+    
+#header {
+    
+    color: var(--white);
+    width: 100%;
+    display: inline-block;
+    
 
-    }
+   
+    
+}
 
-    #hamburguer{
-        display: none;
-    }
+.cabecalho__logo {
+    margin: 1.5rem;
+    width: 15vw;
+
+}
+
+#nav {
+    text-align: center;
+}
+
+#menu{
+
+    display: block;
+    width: 100%;
+    top:70px;
+    text-align: right;
+   margin-left: 2rem;
+    visibility: visible;
+    overflow-y: visible;
+    
+
+}
+
+#btn-mobile{
+    
+    display: none;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: -4rem;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+
+   
+    
+
+   
+}
+
+.contact{
+
+    width: 10vw;
+    background:var(--white);
+    font-weight:bold;
+    font-size: 18px;
+    color: var(--very-dark-desaturated-blue);
+    text-transform: uppercase;
+    margin-right: 4rem;
+   
+
+
+    
+   
+ }
+
+.texto{
+
+    display: flex;
+
+}
+
+.texto-header {
+
+   
+   align-items: center;
+   margin-left: 30rem;
+   margin-top: -35rem;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: var(--fraunces);
+   color: var(--white);
+   text-align: center;
+   letter-spacing: 5.5px;
+
+
+
+    
+ 
+ }
+
+ .seta{
+    
+    margin-top: -30rem;
+    position: absolute;
+    margin-left: 40rem;
+
+    
+ }
+
 }

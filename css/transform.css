@@ -34,3 +34,45 @@ width: 100vw;
 	text-decoration: underline var(--soft-red);
 	text-decoration-style:solid;
 }
+
+@media screen and  (min-width:1440px){
+
+.ovo{
+
+width: 50vw;
+float: right;
+
+}
+
+.transform{
+
+	font-family: var(--fraunces);
+	text-align: center;
+	font-size: 26px;
+	margin-top: 6rem;
+	line-height: 1.5;
+	font-weight: 900;
+	
+
+}
+
+.transform-frase{
+
+	font-size: 16px;
+	text-align: center;
+	margin: 2rem;
+	line-height: 1.5;
+	color: var(--dark-grayish-blue);
+}
+
+.transform-more{
+
+	text-transform: uppercase;
+	font-family: var(--fraunces);
+	font-size: 14px;
+	text-align: center;
+	text-decoration: underline var(--soft-red);
+	text-decoration-style:solid;
+}
+
+}

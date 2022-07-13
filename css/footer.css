@@ -27,3 +27,37 @@ color: var(--dark-desaturated-cyan);
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 }
+
+@media screen and  (min-width:1440px){
+
+footer{
+
+
+	background-color: #BDF2D5;
+	height: 50vh;
+}
+.logo-footer{
+
+	
+	margin-left: 35rem;
+	margin-top: -3.5rem;
+	width: 20vw;
+	
+}
+
+.menu{
+	  
+display: inline;
+margin-left: 20rem;
+top: -3rem;
+color: var(--dark-desaturated-cyan);
+
+}
+
+.redes-sociais{
+
+	margin-left: 18rem;
+	margin-bottom: 5rem;
+}
+
+}

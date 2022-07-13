@@ -53,3 +53,76 @@
 	display: inline-block;
 	width: 49.5vw;
 }
+
+@media screen and  (min-width:1440px){
+
+	.caixa-client{
+
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+	.client{
+
+	margin-top: 16rem;
+	margin-left: 27rem;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: var(--fraunces);
+    font-weight: 900;
+    letter-spacing: 5.5px;
+    color: var(--very-dark-grayish-blue);
+
+
+}
+
+.client-imagem{
+
+	margin-top: 5rem;
+	border-radius: 10rem;
+	width: 10vw;
+	margin-left: 40rem;
+	
+}
+
+.client-frase{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 5rem;
+	margin-left: 25rem;
+	line-height: 1.5;
+	color: var(--very-dark-desaturated-blue);
+}
+
+.client-nome{
+
+	text-align: center;
+	margin-top: 2rem;
+	font-family: var(--fraunces);
+	font-size: 20px;
+	color: var(--very-dark-desaturated-blue);
+	font-weight: 900;
+	margin-left: 25rem;
+
+}
+
+.client-profissão{
+	text-align: center;
+	margin-top: 1rem;
+	color: var(--dark-grayish-blue);
+	margin-left: 25rem;
+}
+
+.quarteto{
+	display: inline-block;
+	width: 24.7vw;
+	margin-top: 5rem;
+}
+
+.quarteto1{
+	display: inline-block;
+	width: 24.7vw;
+}
+}
+
+
